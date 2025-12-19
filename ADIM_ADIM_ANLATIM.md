@@ -100,9 +100,4 @@ Bu sayede dinamik bir rapor oluşur. Kod her çalıştığında veriler değişs
 3. `create_visualizations()` çalıştır -> Grafikleri çiz.
 4. `generate_html_report()` çalıştır -> Raporu yaz.
 
-## Kendini Geliştirmek İçin Öneriler
 
-Bu kod üzerinde pratik yapmak istersen şunları deneyebilirsin:
-1.  **Yeni Veri Ekle**: `generate_data` kısmına 'Profit' (Kar) adında yeni bir sütun ekle.
-2.  **Yeni Grafik Çiz**: Bölgelere göre satışları (Region) gösteren bir sütun grafik ekle.
-3.  **Excel Çıktısı**: Veriyi CSV yerine Excel olarak kaydet (`df.to_excel("satislar.xlsx")`).
